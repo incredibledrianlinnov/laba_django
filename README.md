@@ -1,2 +1,0 @@
-# laba_django
- 

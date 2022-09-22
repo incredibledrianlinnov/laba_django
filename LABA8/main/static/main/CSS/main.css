@@ -6,15 +6,19 @@ aside {
     float: left;
     background: #223347;
     width: 20%;
-    padding: 5%;
-    height: 100vh;
+    padding: 25%;
+    height: 100px;
     color: #d5e3f2;
-    border-right: 6 px solid #162b42;
+    border-right: 10 px solid #162b42;
+    position: stiky;
 }
+
+
 aside img {
     float: left;
     position: relative;
     top: +13px;
+    position: relative;
 }
 
 aside .logo {
@@ -23,12 +27,14 @@ aside .logo {
     font-weight: bold;
     position: relative;
     top: +15px;
+    position: relative;
 }
 aside h3 {
     margin-top: 5px;
     font-size: 30px;
     position: relative;
     top: +8px;
+    position: relative;
 }
 aside ul { list-style: none}
 aside ul li {
@@ -38,20 +44,23 @@ aside ul li {
     position: relative;
     top: +15px;
     margin-top 10px;
+    position: relative;
 }
 
 aside ul li:hover, aside ul a:hover {
     color: #7caee6;
     text-decoration: none;
     transform: scale(1.03);
+    position: relative;
 }
 
 main .features {
     float: left;
     color: #fff;
-    margin-top: 100px;
+    margin-top: 200px;
     text-align: center;
-    width: 75%;
+    width: 100%;
+
 }
 
 main .features h1 {font-size: 70px;}
