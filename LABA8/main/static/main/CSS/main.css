@@ -1,61 +1,59 @@
 body {
-    background: #475e78;
+    background : url(fon1.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 aside {
     float: left;
     background: #223347;
     width: 20%;
-    padding: 25%;
-    height: 100px;
+    padding: 2.5%;
+    height: 100vh;
     color: #d5e3f2;
     border-right: 10 px solid #162b42;
-    position: stiky;
+
 }
 
+.sticky {
+    position: fixed;
+
+    z-index: 10;
+}
 
 aside img {
     float: left;
-    position: relative;
-    top: +13px;
-    position: relative;
+    top: +5px;
 }
 
 aside .logo {
     font-size: 20px;
     margin-left: 5px;
     font-weight: bold;
-    position: relative;
     top: +15px;
-    position: relative;
 }
 aside h3 {
     margin-top: 5px;
     font-size: 30px;
-    position: relative;
     top: +8px;
-    position: relative;
 }
 aside ul { list-style: none}
 aside ul li {
     font-size: 20px;
     color: #d5e3f2;
     display: block;
-    position: relative;
     top: +15px;
     margin-top 10px;
-    position: relative;
 }
 
 aside ul li:hover, aside ul a:hover {
     color: #7caee6;
     text-decoration: none;
     transform: scale(1.03);
-    position: relative;
 }
 
 main .features {
     float: left;
+    position: fixed;
     color: #fff;
     margin-top: 200px;
     text-align: center;
